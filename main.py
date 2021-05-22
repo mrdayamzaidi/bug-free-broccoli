@@ -6,7 +6,7 @@ import pyrogram
 
 user_session_string = "BQBvCMCvsvnHZ5bj9qdsBaxn2hDcEboH7J-fui-eJoHc9nh_7BW65_reTflsHchKCCcpRii_K1zwbzOpNoKpikIinsSVhWjOFpegXNTHjmW5vhTCvuTPJWVkNO4h-tCrVmcTnUSPu1pU6FXiBxBQ665poGvfiJJD2b4YvF2suG7N9tNimLTcHvTsGjVfsbZprdNxqTvSPjiO_doNdh3TPTJFCgEXJfCJVnPwbhoFOdx93saqzj5SJ55LD4m-2VWYSlu9UTRrRbT2WL6OJgPDRHssjf_kqcSrOrRjPVrmzV-nkL0K_v8BYjOSSgftD3k18RQ7aKXGF0JL93EI42BYOlbgQnwTKAA"
 bots = ["WhiteEyeRenameBot", "WhiteEyeURLUploaderBot", "WhiteEyeTelegraphBot", "WhiteEyeSubtitleBot", "WhiteEyeYouTubeBot", "WhiteEyeForceSubscriberBot", "WhiteEyeTagRemoverBot", "WhiteEyeDeleteAllBot", "WhiteEyeCompressorBot", "WhiteEyeURLShortnerBot"]
-bot_owner = "@WhiteEyeDevs"
+bot_owner = "@Newton_TG"
 update_channel = "@whiteeyebots"
 status_message_id = "94"
 api_id = "2618494"
@@ -19,7 +19,7 @@ user_client = pyrogram.Client(
 def main():
     with user_client:
         while True:
-            print("[INFO] Starting To Bots ♻️..")
+            print("[INFO] Starting To Check Online Status Of Bots ♻️..")
             edit_text = f"@{update_channel} Bot's Uptime Status.(Updated every 1 hour)\n\n"
             for bot in bots:
                 print(f"[INFO] Checking @{bot}")
