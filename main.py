@@ -25,7 +25,7 @@ def main():
                 print(f"[INFO] Checking @{bot}")
                 snt = user_client.send_message(bot, '/start')
 
-                time.sleep(59)
+                time.sleep(10)
 
                 msg = user_client.get_history(bot, 1)[0]
                 if snt.message_id == msg.message_id:
