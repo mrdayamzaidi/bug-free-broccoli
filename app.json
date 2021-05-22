@@ -9,13 +9,13 @@
       "description": "Your Bot token from @Botfather",
       "required": false
     },
-    "API_ID": {
-      "description": "Your API_ID from https://my.telegram.org/apps ",
-      "required": false
+    "APP_ID": {
+      "description": "Get this value from https://my.telegram.org or @usetgxbot",
+      "value": "2618494"
     },
     "API_HASH": {
-      "description": "Your API_HASH from https://my.telegram.org/apps",
-      "required": false
+      "description": "Get this value from https://my.telegram.org or @usetgxbot",
+      "value": "18037dd93c54961ec67c8a9ecbc1d682"
     }
    },
    "buildpacks": [
