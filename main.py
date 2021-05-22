@@ -7,8 +7,8 @@ import pyrogram
 user_session_string = "BQBvCMCvsvnHZ5bj9qdsBaxn2hDcEboH7J-fui-eJoHc9nh_7BW65_reTflsHchKCCcpRii_K1zwbzOpNoKpikIinsSVhWjOFpegXNTHjmW5vhTCvuTPJWVkNO4h-tCrVmcTnUSPu1pU6FXiBxBQ665poGvfiJJD2b4YvF2suG7N9tNimLTcHvTsGjVfsbZprdNxqTvSPjiO_doNdh3TPTJFCgEXJfCJVnPwbhoFOdx93saqzj5SJ55LD4m-2VWYSlu9UTRrRbT2WL6OJgPDRHssjf_kqcSrOrRjPVrmzV-nkL0K_v8BYjOSSgftD3k18RQ7aKXGF0JL93EI42BYOlbgQnwTKAA"
 bots = ["WhiteEyeRenameBot", "WhiteEyeURLUploaderBot", "WhiteEyeTelegraphBot", "WhiteEyeSubtitleBot", "WhiteEyeYouTubeBot", "WhiteEyeForceSubscriberBot", "WhiteEyeTagRemoverBot", "WhiteEyeDeleteAllBot", "WhiteEyeCompressorBot", "WhiteEyeURLShortnerBot"]
 bot_owner = "@Newton_TG"
-update_channel = "-1001472813335"
-status_message_id = "94"
+update_channel = "-@whiteeyebots"
+status_message_id = "655292"
 api_id = "2618494"
 api_hash = "18037dd93c54961ec67c8a9ecbc1d682"
 
