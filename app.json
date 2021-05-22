@@ -1,25 +1,47 @@
 {
-  "name": "Image upload bot",
-  "description": "A bot to upload telegram images to telegraph",
-  "repository": "https://github.com/CW4RR10R/Image-UploadBot",
-  "logo": "https://telegra.ph/file/33adaf8d6c398edf81967.jpg",
-  "keywords": ["telegram", "telegraph", "imageuploader","telegram bot"],
-  "env": {
-     "BOT_TOKEN": {
-      "description": "Your Bot token from @Botfather",
-      "required": false
+    "name": "Message DeletEr Bot",
+    "description": "Modular  Telegram Bot powered by @PyroGram!",
+    "keywords": [
+        "telegram",
+        "bot",
+        "plugin",
+        "modular",
+        "productivity",
+        "delete",
+        "channel",
+        "administrators",
+        "messages"
+    ],
+    "repository": "https://github.com/SpEcHiDe/DeleteMessagesRoBot",
+    "website": "https://telegram.dog/SpEcHlDe",
+    "success_url": "https://t.me/SpEcHlDe/857",
+    "env": {
+        "APP_ID": {
+            "description": "Get this value from my.telegram.org! Please do not steal"
+            "required": false
+        },
+        "API_HASH": {
+            "description": "Get this value from my.telegram.org! Please do not steal"
+            "required": false
+        },
+        "TG_BOT_TOKEN": {
+            "description": "Obtain a Telegram bot token by contacting @BotFather"
+            "required": false
+        },
+        "TG_USER_SESSION": {
+            "description": "Create a PyroGram User Session, using https://generatestringsession.spechide.repl.run/"
+            "required": false
+        }
     },
-    "APP_ID": {
-      "description": "Get this value from https://my.telegram.org or @usetgxbot",
-      "value": "2618494"
-    },
-    "API_HASH": {
-      "description": "Get this value from https://my.telegram.org or @usetgxbot",
-      "value": "18037dd93c54961ec67c8a9ecbc1d682"
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
     }
-   },
-   "buildpacks": [
-    {
-      "url": "heroku/python"
-    }
-  ]
+}
