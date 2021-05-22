@@ -24,9 +24,9 @@
             "description": "Get this value from my.telegram.org! Please do not steal"
             "required": false
         },
-        "TG_BOT_TOKEN": {
+        "NAME": {
             "description": "Obtain a Telegram bot token by contacting @BotFather"
-            "required": false
+            "vlaue": "botstus"
         },
         "TG_USER_SESSION": {
             "description": "Create a PyroGram User Session, using https://generatestringsession.spechide.repl.run/"
